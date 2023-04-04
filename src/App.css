@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Markazi Text', serif;
+  font-weight: normal;
 }
 
 .App-logo {
@@ -35,4 +37,376 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;;
+  z-index: 999;
+  background-color: white;
+}
+
+nav img {
+  width: 200px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+  font-size: 18pt;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+header {
+  padding-top: 20px;
+  background-color: #495e57;
+}
+
+header section {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: left;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  color: #EDEFEE;
+}
+
+
+h3 {
+  font-size: 40pt;
+  font-weight: normal;
+  margin: 0%;
+}
+
+header p {
+  font-size: 18pt;
+  font-weight: normal;
+  width: 80%;
+}
+
+header img {
+  height: 400px;
+  width: 520px;
+  border-radius: 16pt;
+  position: relative;
+  top:110px;
+}
+
+.main-top {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 80px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+main h1 {
+  font-size: 40pt;
+}
+
+main button {
+  margin-left: auto;
+  margin-bottom: 7%;
+  width: 25%;
+  margin-top: 30px;
+  font-size: 18pt;
+}
+
+main img {
+  width: 265px;
+  height: 184px;
+  border-radius: 16pt;
+}
+
+.cards {
+  display:flex;
+  width: 60%;
+  gap: 2%;
+  text-align: left;
+  width: 52%;
+  margin-left: 20%;
+  font-family: 'Karla', sans-serif;
+}
+
+.card1 {
+  background-color: #c4c4c41c;
+  padding: 1%;
+}
+
+.card2 {
+  background-color: #c4c4c41c;
+  padding: 1%;
+}
+
+.card3 {
+  background-color: #c4c4c41c;
+  padding: 1%;
+}
+
+.card3 span {
+  margin-left: 20%;
+}
+
+h2 {
+  color: #F4CE14;
+  flex-basis: 50%;
+  font-size: 60pt;
+  font-weight: normal;
+  margin-bottom: 0%;
+}
+
+.cards h3 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 16pt;
+  text-decoration: #333333;
+}
+
+.cards p {
+  font-size: 16pt;
+  max-width: 22ch;
+  line-height: 1.5;
+  font-family: 'Karla', sans-serif;
+}
+
+span {
+  color:#EE9972;
+  font-size: 16pt;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+button {
+  background-color: #F4CE14;
+  color: black;
+  padding: 20px;
+  border: none;
+  text-decoration: none;
+  border-radius: 16px;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.about section {
+  flex-wrap: nowrap;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 70%;
+  margin-left: 15%;
+  padding-bottom: 8%;
+}
+
+.about p {
+  font-size: 18pt;
+  font-weight: normal;
+  text-align: justify;
+}
+
+
+.about img {
+  width: 272px;
+  height: 338px;
+  flex-basis: 50%;
+  border: 2px solid #555;
+  border-radius: 16pt;
+  object-fit:cover;
+}
+
+.chef1 {
+  position:relative;
+  left: 10%;
+  top:100px;
+  z-index: 1;
+}
+
+.chef2 {
+  z-index: 2;
+}
+
+
+footer section {
+  display:flex;
+  gap: 30px;
+  font-family: 'Karla', sans-serif;
+  width: 60%;
+  margin-left: 20%;
+  padding: 2%;
+}
+
+footer {
+  background-color: #c4c4c41c;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer img {
+  height:70px;
+  margin-top: 50px;
+}
+
+footer h3 {
+  font-size: 16pt;
+  margin-left: 35px;
+  color: #495e57;
+  font-family: 'Markazi Text', sans-serif;
+}
+
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #c4c4c41c;
+  text-align: center;
+  margin-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.testimonial-header {
+  width: 60%;
+  padding-top: 2%;
+  color: #333333;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+
+.review {
+  width: 186px;
+  height: 178px;
+  background-color: #fff;
+  margin: 0.8em;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.review p {
+  margin-top: 0.5em;
+  font-family: "Karla", sans-serif;
+}
+
+#profile {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+  margin-right: 10%;
+}
+
+#rating {
+  width: 60%;
+  display: block;
+  margin-left: 10%;
+}
+
+.review h2 {
+  font-family: "Markazi Text", serif;
+  font-size: 16px;
+  color: #000;
+  text-align:right;
+}
+
+form {
+  margin-top: 10%;
+
+  }
+
+/* Media Queries */
+
+
+@media (max-width: 700px) {
+  nav {
+    height: auto;
+  }
+
+  nav img {
+    margin-bottom: 1em;
+  }
+
+  header {
+    padding-top: 100px 0;
+  }
+
+  header section {
+    flex-wrap: wrap;
+    padding-bottom: 15%;
+  }
+
+  header img {
+    margin-top: 20%;
+    max-width: 100%;
+    position:unset;
+  }
+
+  header h1 {
+    flex-basis: 100%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row: auto;
+    gap:2%;
+  }
+
+  footer section {
+    display: grid;
+    gap: 0%;
+    grid-template-columns: 1fr;
+    padding-top: 10%;
+    width:fit-content;
+  }
+
+  main button {
+    width: 60%;
+    margin-right: 20%;
+  }
+
+.about section {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-bottom: 10%;
+}
+
+.about img {
+    margin-top: 10%;
+    max-width: 100%;
+    position:unset;
+}
+
+.testimonials {
+    margin-top: 30%;
+
+ }
 }
