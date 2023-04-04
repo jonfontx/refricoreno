@@ -337,9 +337,30 @@ footer h3 {
   text-align:right;
 }
 
-form {
-  margin-top: 10%;
+.book-container {
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  align-items: center;
+  background-color:#495e57;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
 
+.book-container img{
+  width: 670px;
+  height: 500px;
+  margin-left: 5%;
+  border-radius: 16pt;
+}
+
+
+form {
+  margin-left: 20%;
+  color:#EDEFEE;
+  font-size: 20pt;
+  border-radius: 16pt;
+  text-align: left;
   }
 
 /* Media Queries */
