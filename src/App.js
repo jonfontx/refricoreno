@@ -11,14 +11,14 @@ const App = () => {
 
   return (
     <Router>
-      <body className='App'>
+      <div className='App'>
     <Nav />
     <Routes>
       <Route path="/" element={<Homepage />} />
       <Route path="/bookingpage" element={<BookingPage />} />
     </Routes>
     <Footer />
-    </body>
+    </div>
     </Router>
   )
 }

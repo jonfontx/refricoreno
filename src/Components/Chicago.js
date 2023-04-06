@@ -4,8 +4,7 @@ import chef2 from '../icons_assets/Mario and Adrian A.jpg';
 
 const Chicago = () => {
     return (
-        <about className="about">
-        <section>
+        <section className="about">
             <div>
             <h2>Little Lemon</h2>
             <h3>Chicago</h3>
@@ -14,7 +13,6 @@ const Chicago = () => {
             <img className="chef1" src={chef} alt="chef"/>
             <img src={chef2} alt="chef2" className="chef2"/>
         </section>
-        </about>
     );
 };
 

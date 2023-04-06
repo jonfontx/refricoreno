@@ -209,7 +209,7 @@ button {
   font-weight: bold;
 }
 
-.about section {
+.about {
   flex-wrap: nowrap;
   display: flex;
   text-align: left;
@@ -352,6 +352,11 @@ footer h3 {
   height: 500px;
   margin-left: 5%;
   border-radius: 16pt;
+}
+
+form h3 {
+  color:#F4CE14;
+  font-size: 32pt;
 }
 
 
