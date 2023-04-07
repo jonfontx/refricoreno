@@ -9,11 +9,17 @@ import BookingPage from './Components/BookingPage';
 
 const App = () => {
 
+
+  const [availableTimes, setAvailableTimes] = useState([  '17:00',  '18:00',  '19:00',  '20:00',  '21:00',  '22:00',]);
+
+
+
   return (
     <Router>
       <div className='App'>
     <Nav />
     <Routes>
+      <Route path="/bookingpage" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} />} />
       <Route path="/" element={<Homepage />} />
       <Route path="/bookingpage" element={<BookingPage />} />
     </Routes>
