@@ -1,14 +1,14 @@
-import React from "react";
-import BookingForm from "./BookingForm";
-import resto from "../icons_assets/restaurant.jpg"
+import React from 'react';
+import BookingForm from './BookingForm';
+import resto from '../icons_assets/restaurant.jpg';
 
-const BookingPage = () => {
-    return (
-        <div className="book-container">
-         <BookingForm />
-         <img src={resto} alt="resto" />
-        </div>
-    );
+const BookingPage = (props) => {
+  return (
+    <div className='book-container'>
+      <BookingForm availableTimes={props.availableTimes} />
+      <img src={resto} alt="resto" />
+    </div>
+  );
 };
 
 export default BookingPage;

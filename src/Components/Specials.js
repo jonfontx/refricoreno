@@ -10,7 +10,7 @@ const Specials = () => {
     <main>
         <div className="main-top">
             <h1>This weeks Specials!</h1>
-            <button><Link to='Menu'>Online Menu</Link></button>
+            <button aria-label="On Click"><Link to='Menu'>Online Menu</Link></button>
         </div>
         <div className="cards">
         <div className="card1">
