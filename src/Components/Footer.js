@@ -6,7 +6,7 @@ const Footer = () => {
         <footer>
             <section>
                 <div>
-                    <img src={logo} />
+                    <img src={logo} alt="logo" />
                 </div>
                 <div>
                     <h3>Document Navigation</h3>
