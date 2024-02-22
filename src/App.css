@@ -47,7 +47,7 @@ a {
 }
 
 header {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-bottom: 40px;
   background-color: #2e4783;
 }
@@ -80,7 +80,7 @@ header video {
   width: 520px;
   border-radius: 16pt;
   position: relative;
-  top:120px;
+  top:10px;
 }
 
 .main-top {
