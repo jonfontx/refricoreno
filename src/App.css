@@ -23,7 +23,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white; 
+  color: white;
 }
 
 .App-link {
@@ -40,30 +40,6 @@
 }
 
 
-.navbar {
-  position:fixed;
-  top: 0%;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  background-color: white;
-}
-
-nav ul {
-  width: 60%;
-  margin-right: 21%;
-}
-
-nav ul li {
-  display: inline-block;
-  padding-left: 1.5em;
-  font-size: 18pt;
-}
-
-nav img {
-  margin-left: 19%;
-}
 
 a {
   text-decoration: none;
@@ -73,7 +49,7 @@ a {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #495e57;
+  background-color: #2e4783;
 }
 
 header section {
@@ -164,7 +140,7 @@ main img {
 }
 
 h2 {
-  color: #F4CE14;
+  color: #609fcc;
   flex-basis: 50%;
   font-size: 60pt;
   font-weight: normal;
