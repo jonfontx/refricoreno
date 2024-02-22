@@ -75,8 +75,8 @@ header p {
 }
 
 header video {
-  height: 540px;
-  width: 520px;
+  height: 520px;
+  width: 450px;
   border-radius: 16pt;
   position: relative;
   top:120px;
