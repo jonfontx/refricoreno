@@ -100,11 +100,11 @@ header p {
 }
 
 header video {
-  height: 600px;
-  width: 550px;
+  height: 550px;
+  width: 520px;
   border-radius: 16pt;
   position: relative;
-  top:110px;
+  top:120px;
 }
 
 .main-top {
