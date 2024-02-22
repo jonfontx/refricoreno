@@ -21,7 +21,6 @@ const CallToAction = () => {
             <video className='videoTag' autoPlay="autoPlay" loop="loop" muted="muted" playsInline="playsInline" style={{position:"absolute", zIndex:0}}>
                 <source src={video} type='video/webm' />
                 </video>
-            <img src={restohead} alt="food"/>
         </section>
     </header>
     );
