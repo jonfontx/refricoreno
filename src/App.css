@@ -76,10 +76,10 @@ header p {
 
 header video {
   height: 520px;
-  width: 450px;
+  width: 400px;
   border-radius: 16pt;
   position: relative;
-  top:200px;
+  top:120px;
 }
 
 .main-top {
